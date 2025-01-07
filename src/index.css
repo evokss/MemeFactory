@@ -10,6 +10,8 @@ body {
 main {
   padding: 36px;
   text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .header {
@@ -41,6 +43,9 @@ main {
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
   margin-bottom: 17px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form--input {
@@ -100,4 +105,20 @@ main {
 
 .top {
   top: 0;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 480px) {
+  .form {
+    grid-template: repeat(3, 40px) / 1fr; /* Stack inputs vertically on small screens */
+    padding: 0 10px; /* Add some padding on the sides */
+  }
+  
+  .form--button {
+    grid-column: 1; /* Reset grid column for button */
+  }
+  
+  main {
+    padding: 20px; /* Reduce padding on small screens */
+  }
 }
