@@ -12,7 +12,7 @@
 - **Text Persistence**: Your text stays across different meme templates until explicitly changed or deleted
 - **Real-time Preview**: See your meme come to life as you type
 
-<img src="screenshots/meme-example.jpg" alt="meme-factory-main" style="width: 700px;">
+<img src="screenshots/meme-example.jpg" alt="meme-factory-main" style="width: 650px;">
 
 ## Getting Started
 
