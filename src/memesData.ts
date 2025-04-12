@@ -1,4 +1,20 @@
-export default {
+interface Meme {
+  id: string;
+  name: string;
+  url: string;
+  width: number;
+  height: number;
+  box_count: number;
+}
+
+interface MemeResponse {
+  success: boolean;
+  data: {
+    memes: Meme[];
+  };
+}
+
+const memeData: MemeResponse = {
   success: true,
   data: {
     memes: [
@@ -805,3 +821,5 @@ export default {
     ],
   },
 };
+
+export default memeData;
