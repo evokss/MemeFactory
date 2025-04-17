@@ -2,7 +2,8 @@
 
 ## Application: Meme Factory
 
-- A dynamic React-based meme generator that brings your memes to life with animated text effects. <br>
+**Deploy**: [LINK](https://memes-factory.vercel.app/)
+- This dynamic React-based web app lets you create lively memes with animated text effects that bring your ideas to life. <br>
 
 ## Features
 
